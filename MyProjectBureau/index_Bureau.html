@@ -9,13 +9,15 @@
 		<link rel="icon" type="image/png" sizes="16x16" href="./images/icons/favicon/favicon-16x16.png">
 		<link rel="manifest" href="./images/icons/favicon/site.webmanifest">
 		<!-- END FAVICON -->
+		<link rel="stylesheet" href="./css/shared.css">
+		<link rel="stylesheet" href="./css/animations.css">
 	</head>
 	<body>
 		
 		<!-- NAV -->
-		<div>
-			<div>
-				<ul>
+		<div class="wrap">
+			<div class="menu-container">
+				<ul class="menu">
 					<a href="#home" id="link"><li>HOME</li></a>
 					<a href="#gallery"><li>GALLERY</li></a>
 					<a href="#contact"><li>CONTACT</li></a>
@@ -25,27 +27,27 @@
 		<!-- END NAV -->
 		
 		<!-- HOME -->
-		<div id="home">
-			<div>
-				<div>
-					<span>My Project: Bureau</span>
+		<div id="home" class="background">
+			<div class="container">
+				<div class="text-center">
+					<span class="head-main">My Project: Bureau</span>
 				</div>	
 			</div>
 		</div>
 		<!-- END HOME -->
 		
 		<!-- GALLERY -->
-		<section>
-			<div id="gallery">
+		<section id="gallery" class="background">
+			<div class="container">
 				<h1>Gallery</h1>
-				<div>
+				<div class="flex-container">
 				
 					<!-- PHOTO-CONTAINER 1 -->
-					<div>
-						<div>
-							<img src="./images/thumb/thumbnail_1.jpg" width="250" alt="Picture: Final Desk">
-							<div>
-								<h3>Click to Enlarge</h3>
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./images/thumb/thumbnail_1.jpg" alt="Picture: Final Desk">
+							<div class="photo-overlay">
+								<h3 class="white-head">Click to Enlarge</h3>
 								<p>here are some pictures</p>
 							</div>
 						</div>
@@ -53,11 +55,11 @@
 					<!-- END PHOTO-CONTAINER 1 -->
 					
 					<!-- PHOTO-CONTAINER 2 -->
-					<div>
-						<div>
-							<img src="./images/thumb/thumbnail_2.jpg" width="250" alt="Picture: Opening the top of the desk">
-							<div>
-								<h3>Click to Enlarge</h3>
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./images/thumb/thumbnail_2.jpg" alt="Picture: Opening the top of the desk">
+							<div class="photo-overlay">
+								<h3 class="white-head">Click to Enlarge</h3>
 								<p>here are some pictures</p>
 							</div>
 						</div>
@@ -65,11 +67,11 @@
 					<!-- END PHOTO-CONTAINER 2 -->
 					
 					<!-- PHOTO-CONTAINER 3 -->
-					<div>
-						<div>
-							<img src="./images/thumb/thumbnail_3.jpg" width="250" alt="Picture: Detail top of desk open">
-							<div>
-								<h3>Click to Enlarge</h3>
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./images/thumb/thumbnail_3.jpg" alt="Picture: Detail top of desk open">
+							<div class="photo-overlay">
+								<h3 class="white-head">Click to Enlarge</h3>
 								<p>here are some pictures</p>
 							</div>
 						</div>
@@ -77,11 +79,11 @@
 					<!-- END PHOTO-CONTAINER 3 -->
 					
 					<!-- PHOTO-CONTAINER 4 -->
-					<div>
-						<div>
-							<img src="./images/thumb/thumbnail_4.jpg" width="250" alt="Picture: Mounting leather at thr top of the desk">
-							<div>
-								<h3>Click to Enlarge</h3>
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./images/thumb/thumbnail_4.jpg" alt="Picture: Mounting leather at thr top of the desk">
+							<div class="photo-overlay">
+								<h3 class="white-head">Click to Enlarge</h3>
 								<p>here are some pictures</p>
 							</div>
 						</div>
@@ -89,11 +91,11 @@
 					<!-- END PHOTO-CONTAINER 4 -->
 					
 					<!-- PHOTO-CONTAINER 5 -->
-					<div>
-						<div>
-							<img src="./images/thumb/thumbnail_5.jpg" width="250" alt="Picture: Desk framework">
-							<div>
-								<h3>Click to Enlarge</h3>
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./images/thumb/thumbnail_5.jpg" alt="Picture: Desk framework">
+							<div class="photo-overlay">
+								<h3 class="white-head">Click to Enlarge</h3>
 								<p>here are some pictures</p>
 							</div>
 						</div>
@@ -101,80 +103,56 @@
 					<!-- END PHOTO-CONTAINER 5 -->
 					
 					<!-- PHOTO-CONTAINER 6 -->
-					<div>
-						<div>
-							<img src="./images/thumb/thumbnail_6.jpg" width="250" alt="Picture: Desktop under construction">
-							<div>
-								<h3>Click to Enlarge</h3>
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./images/thumb/thumbnail_6.jpg" alt="Picture: Desktop under construction">
+							<div class="photo-overlay">
+								<h3 class="white-head">Click to Enlarge</h3>
 								<p>here are some pictures</p>
 							</div>
 						</div>
 					</div>
 					<!-- END PHOTO-CONTAINER 6 -->
-					
+
 					<!-- PHOTO-CONTAINER 7 -->
-					<div>
-						<div>
-							<img src="./images/thumb/thumbnail_7.jpg" width="250" alt="Picture: construction detail">
-							<div>
-								<h3>Click to Enlarge</h3>
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./images/thumb/thumbnail_7.jpg" alt="Picture: Desktop under construction">
+							<div class="photo-overlay">
+								<h3 class="white-head">Click to Enlarge</h3>
 								<p>here are some pictures</p>
 							</div>
 						</div>
 					</div>
 					<!-- END PHOTO-CONTAINER 7 -->
 					
-					<!-- PHOTO-CONTAINER 8 -->
-					<div>
-						<div>
-							<img src="./images/thumb/thumbnail_8.jpg" width="250" alt="Picture: Drawer unit">
-							<div>
-								<h3>Click to Enlarge</h3>
-								<p>here are some pictures</p>
-							</div>
-						</div>
-					</div>
-					<!-- END PHOTO-CONTAINER 8 -->
-					
-					<!-- PHOTO-CONTAINER 9 -->
-					<div>
-						<div>
-							<img src="./images/thumb/thumbnail_9.jpg" width="250" alt="Picture: Detail drawer handle">
-							<div>
-								<h3>Click to Enlarge</h3>
-								<p>here are some pictures</p>
-							</div>
-						</div>
-					</div>
-					<!-- END PHOTO-CONTAINER 9 -->
-					
 				</div>
 			</div>
 		</section>
 		
 		<!-- CONTACT -->
-		<section>
-			<div id="contact">
-				<div>
-					<h1>Contact</h1>
-					<div>
+		<section id="contact" class="background">
+			<div class="container">
+				<div class="heading-padding">
+					<h1 class="heading-padding">Contact</h1>
+					<div class="contact">
 						<h2><span>Questions? Contact Me!</span></h2>
-						<p>
+						<p class="contact-text">
 							Pleas provide us with your information.
 						</p>
-						<div>
+						<div class="contact-form">
 							<form action="" Method="post">
 								<input class="contact" type="text" value="Fist Name:">
 								<input class="contact" type="text" value="Last Name:">
 								<input class="contact" type="text" value="Email Addres:">
 								<input class="contact" type="text" value="Phone Number:">
-								<div class="form-spacer">
-									<label class="terms"> Terms and Conditions</label>
-								</div>
-								<div>
-									<input type="submit" value="Submit">
-								</div>
 							</form>
+							<div class="form-spacer">
+								<label class="terms"> Terms and Conditions</label>
+							</div>
+							<div>
+								<input type="submit" value="Submit">
+							</div>
 						</div>
 					</div>
 				</div>
@@ -183,7 +161,7 @@
 		<!-- END CONTACT -->
 		
 		<!-- FOOTER -->
-		<div>
+		<div id="footer">
 			Piet de Leeuw &nbsp;|&nbsp; pietdeleeuw@gmail.com &nbsp;|&nbsp; &copy; 2024
 		</div>
 		<!-- END FOOTER -->
