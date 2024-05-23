@@ -1,5 +1,5 @@
 # HTML-and-CSS-Projects
-Here I display all the projects I made on [The Tech Academy](https://www.learncodinganywhere.com/){:target="_blank"}'s Basic HTML & CSS course.
+Here I display all the projects I made on [The Tech Academy](https://www.learncodinganywhere.com/)'s Basic HTML & CSS course.
 
 ## Projects:
 - [Basic_HTML_CSS](#basic_html_css--basic_html_and_javascript_1)
