@@ -3,44 +3,14 @@ Here I display all the projects I made on <a href="https://www.learncodinganywhe
 
 ## Projects:
 - [Basic_HTML_CSS](#basic_html_css-basic_html_and_javascript_1)
-- Basic_HTML_and_JavaScript_1
-- Creating-a-CSS-menu
-- Effecting-images-with-CSS
-- HTML documents
-- MyProjectBureau
-- One_Page_Website
-- boodstrap4_project
+- [Basic_HTML_and_JavaScript_1](#basic_html_css-basic_html_and_javascript_1)
+- [Creating-a-CSS-menu](#creating-a-css-menu)
+- [Effecting-images-with-CSS](#effecting-images-with-css)
+- [HTML documents](#html-documents)
+- [MyProjectBureau](#myprojectbureau)
+- [One_Page_Website](#one_page_website)
+- [boodstrap4_project](#boodstrap4_project)
 
-- 1
-- 1
-- 1
-- 1
-- 1
-- 1
-- 1
-- 1
-- 1
-- 1
-- 1
-- 1
-- 1
-- 1
-- 1
-- 1
-- 1
-- 1
-- 1
-- 1
-- 1
-- 1
-- 1
-- 1
-- 11
-- 1
-
-- 11
-- 1
-- 1
 ### Basic_HTML_CSS, Basic_HTML_and_JavaScript_1
 These two projects are the first exercises with HTLM in combination with CSS and JavaScript.
 
@@ -52,6 +22,10 @@ In this exercise, we created a photo container with a text overlay that appears 
 
 ### HTML documents
 In doing this exercise I did the following things:
-<li>connect multiple simple webpages.</li>
-<li>use pictures.</li>
-<li>integrate a video in a webpage.</li>
+-connect multiple simple webpages.
+-use pictures.
+-integrate a video in a webpage.
+
+### MyProjectBureau
+### One_Page_Website
+### boodstrap4_project
