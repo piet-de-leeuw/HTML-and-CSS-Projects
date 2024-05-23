@@ -1,26 +1,56 @@
-<h1>HTML-and-CSS-Projects</h1>
+# HTML-and-CSS-Projects
 Here I display all the projects I made on <a href="https://www.learncodinganywhere.com/" target="_blank">The Tech Academy</a>'s Basic HTML & CSS course.
 
-<h2>Projects:</h2>
-<li>[Basic_HTML_CSS](https://github.com/piet-de-leeuw/HTML-and-CSS-Projects/edit/main/README.md#basic_html_css-basic_html_and_javascript_1)</li>
-<li><a href="#2">Basic_HTML_and_JavaScript_1</a></li>
-<li><a href="#3">Creating-a-CSS-menu</a></li>
-<li><a href="#4">Effecting-images-with-CSS</a></li>
-<li><a href="#5">HTML documents</a></li>
-<li><a href="#6">MyProjectBureau</a></li>
-<li><a href="#7">One_Page_Website</a></li>
-<li><a href="#8">boodstrap4_project</a></li>
+## Projects:
+- [Basic_HTML_CSS](#basic_html_css-basic_html_and_javascript_1)
+- Basic_HTML_and_JavaScript_1
+- Creating-a-CSS-menu
+- Effecting-images-with-CSS
+- HTML documents
+- MyProjectBureau
+- One_Page_Website
+- boodstrap4_project
 
-<h3 id="1">Basic_HTML_CSS, Basic_HTML_and_JavaScript_1</h3>
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 1
+- 11
+- 1
+
+- 11
+- 1
+- 1
+### Basic_HTML_CSS, Basic_HTML_and_JavaScript_1
 These two projects are the first exercises with HTLM in combination with CSS and JavaScript.
 
-<h3 id="3">Creating-a-CSS-menu</h3>
+### Creating-a-CSS-menu
 In this exercise, I created a rollover menu using HTML and CSS.
 
-<h3 id="4">Effecting-images-with-CSS</h3>
+### Effecting-images-with-CSS
 In this exercise, we created a photo container with a text overlay that appears when you hover the cursor over it. 
 
-<h3 id="5">HTML documents</h3>
+### HTML documents
 In doing this exercise I did the following things:
 <li>connect multiple simple webpages.</li>
 <li>use pictures.</li>
