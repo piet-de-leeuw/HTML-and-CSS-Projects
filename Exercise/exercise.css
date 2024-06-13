@@ -1,0 +1,115 @@
+.image-container, .video-container
+{
+    position: relative;
+    
+}
+
+img, video
+{
+    display: block;
+    margin: 5px auto;
+    width: 50%;
+    border-radius: 2%;
+    
+}
+
+img:hover
+{
+    filter: hue-rotate(180deg);
+}
+
+.overlay, .video-overlay
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    z-index: 1;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.image-container:hover .overlay, .video-container:hover .video-overlay
+{
+    opacity: 1;
+}
+
+footer 
+{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 1000px;
+}
+
+table, th, td
+{
+    border: 2px solid silver;
+    border-collapse: collapse;
+}
+
+th, td
+{
+    padding: 15px 10px;
+}
+
+th
+{
+    background-color: forestgreen;
+}
+
+.navbar-container
+{
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+.navbar
+{
+    display: block;
+    margin: auto;
+    width: 25%;
+    border: 2px solid red;
+    padding: 10px;
+    background-color: rgba(112, 241, 61, 0.808);
+    text-align: center;
+}
+
+.navbar a
+{
+    color: yellow;
+    border: 1px solid yellow;
+    font-weight: bold;
+}
+
+.navbar:hover a
+{
+    border: 1px solid red;
+}
+
+.row 
+{
+    display: flex;
+}
+
+.left
+{
+    height: 500px;
+    width: 50%;
+    color: blue;
+}
+.right
+{
+    height: 400px;
+    width: 50%;
+    color: red;
+}
+
+p:hover
+{
+    background-color: indigo;
+    cursor: pointer;
+}

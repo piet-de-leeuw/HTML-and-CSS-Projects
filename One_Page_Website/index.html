@@ -5,6 +5,8 @@
         <title>Galaxy</title>
         <link rel="stylesheet" href="./css/shared.css">
         <link rel="stylesheet" href="./css/animations.css">
+
+        <script src="./js/main.js" defer></script>
     </head>
     <body>
 
@@ -40,7 +42,7 @@
                         <div class="photo-container">
                             <div class="photo">
                                 <img src="./images/thumb/thumbnail_1.png" alt="Sun">
-                                <div class="photo-overlay">
+                                <div class="photo-overlay" onclick="openModal();currentSlide(1)">
                                     <h3 class="white-head">Click to enlarge</h3>
                                     <p>For more information contact us</p>
                                 </div>
@@ -52,7 +54,7 @@
                     <div class="photo-container">
                         <div class="photo">
                             <img src="./images/thumb/thumbnail_2.png" alt="Mercury">
-                            <div class="photo-overlay">
+                            <div class="photo-overlay" onclick="openModal();currentSlide(2)">
                                 <h3 class="white-head">Click to enlarge</h3>
                                 <p>For more information contact us</p>
                             </div>
@@ -64,7 +66,7 @@
                     <div class="photo-container">
                         <div class="photo">
                             <img src="./images/thumb/thumbnail_3.png" alt="Venus">
-                            <div class="photo-overlay">
+                            <div class="photo-overlay" onclick="openModal();currentSlide(3)">
                                 <h3 class="white-head">Click to enlarge</h3>
                                 <p>For more information contact us</p>
                             </div>
@@ -76,7 +78,7 @@
                     <div class="photo-container">
                         <div class="photo">
                             <img src="./images/thumb/thumbnail_4.png" alt="Earth">
-                            <div class="photo-overlay">
+                            <div class="photo-overlay" onclick="openModal();currentSlide(4)">
                                 <h3 class="white-head">Click to enlarge</h3>
                                 <p>For more information contact us</p>
                             </div>
@@ -88,7 +90,7 @@
                     <div class="photo-container">
                         <div class="photo">
                             <img src="./images/thumb/thumbnail_5.png" alt="Mars">
-                            <div class="photo-overlay">
+                            <div class="photo-overlay" onclick="openModal();currentSlide(5)">
                                 <h3 class="white-head">Click to enlarge</h3>
                                 <p>For more information contact us</p>
                             </div>
@@ -100,7 +102,7 @@
                     <div class="photo-container">
                         <div class="photo">
                             <img src="./images/thumb/thumbnail_6.png" alt="Jupiter">
-                            <div class="photo-overlay">
+                            <div class="photo-overlay" onclick="openModal();currentSlide(6)">
                                 <h3 class="white-head">Click to enlarge</h3>
                                 <p>For more information contact us</p>
                             </div>
@@ -112,7 +114,7 @@
                     <div class="photo-container">
                         <div class="photo">
                             <img src="./images/thumb/thumbnail_7.png" alt="Saturn">
-                            <div class="photo-overlay">
+                            <div class="photo-overlay" onclick="openModal();currentSlide(7)">
                                 <h3 class="white-head">Click to enlarge</h3>
                                 <p>For more information contact us</p>
                             </div>
@@ -124,7 +126,7 @@
                     <div class="photo-container">
                         <div class="photo">
                             <img src="./images/thumb/thumbnail_8.png" alt="Uranus">
-                            <div class="photo-overlay">
+                            <div class="photo-overlay" onclick="openModal();currentSlide(8)">
                                 <h3 class="white-head">Click to enlarge</h3>
                                 <p>For more information contact us</p>
                             </div>
@@ -136,7 +138,7 @@
                     <div class="photo-container">
                         <div class="photo">
                             <img src="./images/thumb/thumbnail_9.png" alt="Neptune">
-                            <div class="photo-overlay">
+                            <div class="photo-overlay" onclick="openModal();currentSlide(9)">
                                 <h3 class="white-head">Click to enlarge</h3>
                                 <p>For more information contact us</p>
                             </div>
@@ -149,6 +151,105 @@
             </div>
         </section>
         <!-- END GALLERY -->
+
+        <!-- THE MODAL/LIGHTBOX -->
+        <div id="myModal" class="modal">
+            <p class="close cursor" onclick="closeModal()">&times;</p>
+            <div class="modal-content">
+        
+                <div class="mySlides">
+                    <div class="numbertext">1 / 9</div>
+                    <img src="./images/thumb_wide/thumbnail_1_wide.png" style="width:100%">
+                </div>
+            
+                <div class="mySlides">
+                    <div class="numbertext">2 / 9</div>
+                    <img src="./images/thumb_wide/thumbnail_2_wide.png" style="width:100%">
+                </div>
+            
+                <div class="mySlides">
+                    <div class="numbertext">3 / 9</div>
+                    <img src="./images/thumb_wide/thumbnail_3_wide.png" style="width:100%">
+                </div>
+            
+                <div class="mySlides">
+                    <div class="numbertext">4 / 9</div>
+                    <img src="./images/thumb_wide/thumbnail_4_wide.png" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">5 / 9</div>
+                    <img src="./images/thumb_wide/thumbnail_5_wide.png" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">6 / 9</div>
+                    <img src="./images/thumb_wide/thumbnail_6_wide.png" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">7 / 9</div>
+                    <img src="./images/thumb_wide/thumbnail_7_wide.png" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">8 / 9</div>
+                    <img src="./images/thumb_wide/thumbnail_8_wide.png" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">9 / 9</div>
+                    <img src="./images/thumb_wide/thumbnail_9_wide.png" style="width:100%">
+                </div>
+            
+                <!-- Next/previous controls -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+                <!-- Caption text -->
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+            
+                <!-- Thumbnail image controls -->
+                <div class="column">
+                    <img class="dot" src="./images/thumb_mini/thumbnail_1.png" onclick="currentSlide(1)" alt="Sun">
+                </div>
+            
+                <div class="column">
+                    <img class="dot" src="./images/thumb_mini/thumbnail_2.png" onclick="currentSlide(2)" alt="Mercury">
+                </div>
+            
+                <div class="column">
+                    <img class="dot" src="./images/thumb_mini/thumbnail_3.png" onclick="currentSlide(3)" alt="Venus">
+                </div>
+            
+                <div class="column">
+                    <img class="dot" src="./images/thumb_mini/thumbnail_4.png" onclick="currentSlide(4)" alt="Earth">
+                </div>
+
+                <div class="column">
+                    <img class="dot" src="./images/thumb_mini/thumbnail_5.png" onclick="currentSlide(5)" alt="Mars">
+                </div>
+
+                <div class="column">
+                    <img class="dot" src="./images/thumb_mini/thumbnail_6.png" onclick="currentSlide(6)" alt="Jupiter">
+                </div>
+
+                <div class="column">
+                    <img class="dot" src="./images/thumb_mini/thumbnail_7.png" onclick="currentSlide(7)" alt="Saturn">
+                </div>
+
+                <div class="column">
+                    <img class="dot" src="./images/thumb_mini/thumbnail_8.png" onclick="currentSlide(8)" alt="Uranus">
+                </div>
+
+                <div class="column">
+                    <img class="dot " src="./images/thumb_mini/thumbnail_9.png" onclick="currentSlide(9)" alt="Neptune">
+                </div>
+            </div>
+        </div>
+        <!-- END THE MODAL/LIGHTBOX -->
 
         <!-- CONTACT -->
         <section id="contact" class="background">
