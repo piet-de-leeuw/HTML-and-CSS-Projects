@@ -167,10 +167,8 @@ section
 }
 
 .background
-{   
-    /* added full path to work with html-preview.github.io for normal live websites delete the next line and uncommend the line under that.*/
-    background: url('https://html-preview.github.io/?url=https://github.com/piet-de-leeuw/HTML-and-CSS-Projects/blob/main/One_Page_Website/images/background/galaxy.jpg') no-repeat 50% 50%;
-    /* background: url('../images/background/galaxy.jpg') no-repeat 50% 50%; */
+{
+    background: url('../images/background/galaxy.jpg') no-repeat 50% 50%;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
